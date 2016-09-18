@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 2.8)
 set(PROJECT_NAME SkeletonProject)
 project(${PROJECT_NAME})
 
@@ -14,3 +14,4 @@ add_subdirectory(tests)
 
 enable_testing()
 add_test(NAME all_tests COMMAND TestAll)
+
