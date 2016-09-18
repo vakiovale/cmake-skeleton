@@ -13,4 +13,4 @@ add_subdirectory(src)
 add_subdirectory(tests)
 
 enable_testing()
-add_test(NAME TestAll COMMAND Test)
+add_test(NAME all_tests COMMAND TestAll)
